@@ -619,6 +619,20 @@ footer .download a{
 .choosead .moreinfo{
 	margin-top: 80px;
 }
+@media only screen and (max-width:1200px){
+	.choosead  .moreinfo a{
+	
+		padding: 5px 45px;
+	}
+}
+@media only screen and (max-width:320px){
+	.choosead  .moreinfo a{
+	
+		padding: 5px 36px;
+	}
+}
+
+
 /*-------------------End choosead Page----------------------------*/
 /*-------------------Start NewAdCars Page----------------------------*/
 .cars-ad{
