@@ -625,6 +625,7 @@ footer .download a{
 		padding: 5px 45px;
 	}
 }
+
 @media only screen and (max-width:320px){
 	.choosead  .moreinfo a{
 	
@@ -649,9 +650,6 @@ footer .download a{
 	font-size: 22px;
 	padding: 10px;
 	margin: 30px 0px;
-}
-.cars-ad form{
-
 }
 .cars-ad form p {
 	border: none;
@@ -685,6 +683,22 @@ footer .download a{
 }
 .cars-ad .moreinfo{
 	margin-top: 30px;
+}
+@media only screen and (max-width:425px){
+	.cars-ad  .leftsection {
+	
+		display: none;
+	}
+	.cars-ad input[type=text],select{
+		width:auto;
+
+	}
+	.cars-ad  textarea{
+		width: auto;
+
+	}
+	.cars-ad input[type=checkbox] {
+		display: block;
 }
 /*-------------------End NewAdCars Page----------------------------*/
 
